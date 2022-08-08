@@ -81,7 +81,7 @@ def home():
                 "username": username,
                 "last_seen": user_data_last_seen,
                 "ad_name": data['paymentMethodName'],
-                "amount": data['fiatAmountRangeMax'],
+                "amount": data['fiatPricePerCrypto'],
                 "total_trades": user_data_trades_count,
                 "currency_code": data['fiatCurrencyCode'],
             }
